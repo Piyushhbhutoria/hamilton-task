@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -e
+
+protoc --go_out=. --go_opt=paths=source_relative \
+    --go-grpc_out=. --go-grpc_opt=paths=source_relative \
+    wallet/wallet.proto
+
+export SERVICE_NAME=service-wallet
+export PORT="50051"
+export DATABASE_URL="postgres://piyushhbhutoria@localhost:5432/wallet?sslmode=disable"
+
+go test -cover -v ./...

@@ -1,0 +1,111 @@
+INFO : 2022/12/12 14:19:22.030239 logger.go:30: postgres db connected
+INFO : 2022/12/12 14:19:22.030596 logger.go:30: Starting gRPC server on port 50051
+INFO : 2022/12/12 14:24:09.972529 logger.go:30: postgres db connected
+INFO : 2022/12/12 14:24:09.972919 logger.go:30: Starting gRPC server on port 50051
+INFO : 2022/12/12 14:24:20.503420 logger.go:30: retrieving wallet for user: aa3b376d-f252-4adc-b9bf-567a0ae47cf7
+INFO : 2022/12/12 14:24:25.723844 logger.go:30: creating new wallet for user: aa3b376d-f252-4adc-b9bf-567a0ae47cf7
+INFO : 2022/12/12 14:24:54.951457 logger.go:30: creating new wallet for user: a0aabbd5-9bd1-4221-a1a2-131224c5788f
+INFO : 2022/12/12 14:25:01.079556 logger.go:30: retrieving wallet for user: a0aabbd5-9bd1-4221-a1a2-131224c5788f
+INFO : 2022/12/12 14:25:02.908407 logger.go:30: retrieving wallet for user: a0aabbd5-9bd1-4221-a1a2-131224c5788f
+INFO : 2022/12/12 14:25:12.744437 logger.go:30: retrieving all wallet for user: a0aabbd5-9bd1-4221-a1a2-131224c5788f
+INFO : 2022/12/12 14:25:20.250307 logger.go:30: creating new wallet for user: a0aabbd5-9bd1-4221-a1a2-131224c5788f
+INFO : 2022/12/12 14:25:25.888358 logger.go:30: retrieving all wallet for user: a0aabbd5-9bd1-4221-a1a2-131224c5788f
+INFO : 2022/12/12 14:29:36.704867 logger.go:30: postgres db connected
+INFO : 2022/12/12 14:29:36.705621 logger.go:30: Starting gRPC server on port 50051
+INFO : 2022/12/12 14:30:53.993039 logger.go:30: retrieving all wallet for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:31:00.843148 logger.go:30: creating new wallet for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:31:06.983074 logger.go:30: retrieving wallet for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:31:21.511769 logger.go:30: retrieving wallet for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:31:21.518135 logger.go:30: adding transaction to wallet: a570c545-4778-44da-aa6d-3a3e9dd7a28d
+INFO : 2022/12/12 14:31:24.683484 logger.go:30: retrieving all wallet for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:31:29.479672 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:31:34.268536 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:34:33.527855 logger.go:30: postgres db connected
+INFO : 2022/12/12 14:34:33.528184 logger.go:30: Starting gRPC server on port 50051
+INFO : 2022/12/12 14:34:38.440582 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:35:06.546624 logger.go:30: postgres db connected
+INFO : 2022/12/12 14:35:06.546778 logger.go:30: Starting gRPC server on port 50051
+INFO : 2022/12/12 14:35:08.869925 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:35:45.581625 logger.go:30: postgres db connected
+INFO : 2022/12/12 14:35:45.581741 logger.go:30: Starting gRPC server on port 50051
+INFO : 2022/12/12 14:35:49.477650 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:36:04.907637 logger.go:30: postgres db connected
+INFO : 2022/12/12 14:36:04.907737 logger.go:30: Starting gRPC server on port 50051
+INFO : 2022/12/12 14:36:08.013563 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:36:17.975015 logger.go:30: creating new wallet for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:36:24.439301 logger.go:30: retrieving wallet for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:36:24.445864 logger.go:30: adding transaction to wallet: cd13e2c6-d9f5-4c4a-9076-2d9d880638fa
+INFO : 2022/12/12 14:36:33.301795 logger.go:30: retrieving wallet for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:36:33.303495 logger.go:30: adding transaction to wallet: cd13e2c6-d9f5-4c4a-9076-2d9d880638fa
+INFO : 2022/12/12 14:36:35.291110 logger.go:30: retrieving wallet for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:36:35.293093 logger.go:30: adding transaction to wallet: cd13e2c6-d9f5-4c4a-9076-2d9d880638fa
+INFO : 2022/12/12 14:36:37.777565 logger.go:30: retrieving all wallet for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:36:40.839957 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:36:46.186372 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:36:47.054824 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:36:47.531135 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:36:47.675740 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:36:47.858019 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:36:48.023582 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:36:52.047385 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:36:58.547868 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:37:02.355405 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:37:24.241044 logger.go:30: postgres db connected
+INFO : 2022/12/12 14:37:24.241145 logger.go:30: Starting gRPC server on port 50051
+INFO : 2022/12/12 14:37:26.728785 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:37:35.440778 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:37:58.451397 logger.go:30: postgres db connected
+INFO : 2022/12/12 14:37:58.451501 logger.go:30: Starting gRPC server on port 50051
+INFO : 2022/12/12 14:38:00.988653 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:39:13.211166 logger.go:30: postgres db connected
+INFO : 2022/12/12 14:39:13.211302 logger.go:30: Starting gRPC server on port 50051
+INFO : 2022/12/12 14:39:27.170961 logger.go:30: postgres db connected
+INFO : 2022/12/12 14:39:27.171108 logger.go:30: Starting gRPC server on port 50051
+INFO : 2022/12/12 14:39:36.546699 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:39:43.470541 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:40:09.103564 logger.go:30: retrieving wallet for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:40:09.107715 logger.go:30: adding transaction to wallet: a570c545-4778-44da-aa6d-3a3e9dd7a28d
+INFO : 2022/12/12 14:44:35.999380 logger.go:30: postgres db connected
+INFO : 2022/12/12 14:44:35.999836 logger.go:30: Starting gRPC server on port 50051
+INFO : 2022/12/12 14:44:44.577556 logger.go:30: retrieving wallet for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:44:44.589360 logger.go:30: adding transaction to wallet: a570c545-4778-44da-aa6d-3a3e9dd7a28d
+INFO : 2022/12/12 14:48:25.958290 logger.go:30: postgres db connected
+INFO : 2022/12/12 14:48:25.958727 logger.go:30: Starting gRPC server on port 50051
+INFO : 2022/12/12 14:48:28.074500 logger.go:30: retrieving wallet for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 14:48:28.103400 logger.go:30: adding transaction to wallet: a570c545-4778-44da-aa6d-3a3e9dd7a28d
+INFO : 2022/12/12 14:48:40.101723 logger.go:30: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 16:47:14.307002 logger.go:30: postgres db connected
+INFO : 2022/12/12 16:47:14.307638 logger.go:30: Starting gRPC server on port 50051
+INFO : 2022/12/12 17:19:14.310354 logger.go:30: postgres db connected
+INFO : 2022/12/12 17:19:14.310729 logger.go:30: Starting gRPC server on port 50051
+INFO : 2022/12/12 17:31:19.500339 logger.go:33: postgres db connected
+INFO : 2022/12/12 17:31:19.500784 logger.go:33: Starting gRPC server on port 50051
+INFO : 2022/12/12 17:31:26.206704 logger.go:33: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 17:33:56.981042 logger.go:33: postgres db connected
+INFO : 2022/12/12 17:33:56.981303 logger.go:33: Starting gRPC server on port 50051
+INFO : 2022/12/12 17:33:59.109409 logger.go:33: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 17:33:59.124460 logger.go:33: GRPC Request: /wallet.WalletService/GetTransactionHistory, user_id:"70b23607-8350-4522-942c-e320ce8f77f1"  page_size:10  page_number:1, , 14.698708ms
+INFO : 2022/12/12 17:36:51.056531 logger.go:35: postgres db connected
+INFO : 2022/12/12 17:36:51.056850 logger.go:35: Starting gRPC server on port 50051
+INFO : 2022/12/12 17:36:52.633702 logger.go:35: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 17:36:52.652878 logger.go:35: GRPC Request: /wallet.WalletService/GetTransactionHistory, 0 user_id:"70b23607-8350-4522-942c-e320ce8f77f1"  page_size:10  page_number:1, , 18.982ms
+INFO : 2022/12/12 17:36:52.944887 logger.go:35: retrieving transactions for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 17:36:52.950147 logger.go:35: GRPC Request: /wallet.WalletService/GetTransactionHistory, 0 user_id:"70b23607-8350-4522-942c-e320ce8f77f1"  page_size:10  page_number:1, , 5.217959ms
+INFO : 2022/12/12 17:37:17.326246 logger.go:35: retrieving all wallet for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 17:37:17.329290 logger.go:35: GRPC Request: /wallet.WalletService/GetWalletSummary, 0 user_id:"70b23607-8350-4522-942c-e320ce8f77f1", , 2.708ms
+INFO : 2022/12/12 17:38:53.813736 logger.go:35: postgres db connected
+INFO : 2022/12/12 17:38:53.814541 logger.go:35: Starting gRPC server on port 50051
+INFO : 2022/12/12 17:38:54.294042 logger.go:35: retrieving all wallet for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 17:38:54.315974 logger.go:35: /wallet.WalletService/GetWalletSummary, 0, OK, 21.903291ms
+INFO : 2022/12/12 17:40:37.408627 logger.go:35: postgres db connected
+INFO : 2022/12/12 17:40:37.409091 logger.go:35: Starting gRPC server on port 50051
+INFO : 2022/12/12 17:40:39.561903 logger.go:35: retrieving all wallet for user: 70b23607-8350-4522-942c-e320ce8f77f1
+ERROR: 2022/12/12 17:40:39.591713 logger.go:43: /wallet.WalletService/GetWalletSummary, 0, OK, 29.831958ms
+INFO : 2022/12/12 17:40:48.245034 logger.go:35: retrieving all wallet for user: 70b23607-8350-4522-942c-e320ce8f77f1
+ERROR: 2022/12/12 17:40:48.246884 logger.go:43: /wallet.WalletService/GetWalletSummary, 0, OK, 1.857208ms
+INFO : 2022/12/12 17:41:12.424787 logger.go:35: postgres db connected
+INFO : 2022/12/12 17:41:12.425106 logger.go:35: Starting gRPC server on port 50051
+INFO : 2022/12/12 17:41:14.216334 logger.go:35: retrieving all wallet for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 17:41:14.223323 logger.go:35: /wallet.WalletService/GetWalletSummary, 0, OK, 6.968708ms
+INFO : 2022/12/12 17:41:17.452039 logger.go:35: retrieving all wallet for user: 70b23607-8350-4522-942c-e320ce8f77f1
+INFO : 2022/12/12 17:41:17.453985 logger.go:35: /wallet.WalletService/GetWalletSummary, 0, OK, 1.949208ms

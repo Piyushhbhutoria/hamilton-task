@@ -1,0 +1,80 @@
+syntax = "proto3";
+
+package wallet;
+
+// import "google/protobuf/Timestamp.proto";
+
+option go_package = "github.com/Piyushhbhutoria/grpc-api/wallet";
+
+message Wallet {
+  string user_id = 1;
+  string wallet_id = 2;
+  string currency = 3;
+  float balance = 4;
+  repeated Ledger ledgers = 5;
+}
+
+enum TransactionType {
+  CREDIT = 0;
+  DEBIT = 1;
+}
+
+message Ledger {
+  string created_at = 1;
+  string transaction_type = 2;
+  float amount = 3;
+  string currency = 4;
+  string description = 5;
+  string wallet_id = 6;
+}
+
+message WalletSummary {
+  string currency = 1;
+  float balance = 2;
+}
+
+message CreateUserWalletRequest {
+  string user_id = 1;
+  string currency = 2;
+}
+
+message CreateUserWalletResponse {
+  Wallet wallet = 1;
+}
+
+message RecordTransactionRequest {
+  string user_id = 1;
+  string transaction_type = 2;
+  float amount = 3;
+  string currency = 4;
+  string description = 5;
+}
+
+message RecordTransactionResponse {
+  string balance = 1;
+}
+
+message GetWalletSummaryRequest {
+  string user_id = 1;
+}
+
+message GetWalletSummaryResponse {
+  repeated WalletSummary wallet_summary = 1;
+}
+
+message GetTransactionHistoryRequest {
+  string user_id = 1;
+  int32 page_size = 2;
+  int32 page_number = 3;
+}
+
+message GetTransactionHistoryResponse {
+  repeated Ledger ledgers = 1;
+}
+
+service WalletService {
+  rpc CreateUserWallet(CreateUserWalletRequest) returns (CreateUserWalletResponse) {}
+  rpc RecordTransaction(RecordTransactionRequest) returns (RecordTransactionResponse) {}
+  rpc GetWalletSummary(GetWalletSummaryRequest) returns (GetWalletSummaryResponse) {}
+  rpc GetTransactionHistory(GetTransactionHistoryRequest) returns (GetTransactionHistoryResponse) {}
+}

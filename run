@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -e
+
+export SERVICE_NAME=service-wallet
+export PORT="50051"
+export DATABASE_URL="postgres://piyushhbhutoria@localhost:5432/wallet?sslmode=disable"
+
+go run main.go

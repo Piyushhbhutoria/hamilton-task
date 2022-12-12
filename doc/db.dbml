@@ -1,0 +1,44 @@
+Project wallet {
+  database_type: 'PostgreSQL'
+  Note: '''
+  '''
+}
+
+// Creating tables
+Table users {
+    id bigint [default: `nextval('users_seq'::regclass)`, pk]
+    username text
+    created_at timestamp [default: `now()`]
+    user_id uuid [default: `uuid_generate_v4()`, unique]
+    
+    Indexes {
+      user_id [unique]
+    }
+}
+
+Table wallets {
+    id bigint [default: `nextval('wallet_seq'::regclass)`, pk]
+    user_id uuid [ref: > users.user_id]
+    currency text
+    balance numeric [default: 0]
+    wallet_id uuid [default: `uuid_generate_v4()`, unique]
+    
+    Indexes {
+      wallet_id [unique]
+      (user_id, currency) [unique]
+    }
+}
+
+Enum txntype {
+  DEBIT
+  CREDIT
+}
+
+Table ledger {
+    id bigint [default: `nextval('ledger_seq'::regclass)`, pk]
+    created_at timestamp [default: `now()`]
+    transaction_type txntype
+    amount numeric 
+    description text
+    wallet_id uuid [ref: > wallets.wallet_id]
+}
